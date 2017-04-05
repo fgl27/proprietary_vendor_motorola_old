@@ -16,15 +16,9 @@
 
 # apps and frame
 PRODUCT_PACKAGES += \
-    com.verizon.ims \
     ims \
-    RCSBootstraputil \
-    RcsImsBootstraputil \
-    rcsimssettings \
-    rcsservice \
-    com.motorola.motosignature \
-    com.motorola.ims.rcsmanager \
     imscmlibrary \
+    imssettings
 
 # Libs and etc
 PRODUCT_COPY_FILES += \
