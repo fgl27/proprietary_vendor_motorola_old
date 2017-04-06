@@ -27,6 +27,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
     vendor/motorola/quark/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/motorola/quark/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/motorola/quark/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/motorola/quark/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/motorola/quark/proprietary/app/ims/lib/arm/libimscamera_jni.so:system/app/ims/lib/arm/libimscamera_jni.so \
     vendor/motorola/quark/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
@@ -54,4 +55,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/motorola/quark/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/motorola/quark/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so
+    vendor/motorola/quark/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so
