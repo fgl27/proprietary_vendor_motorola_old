@@ -18,13 +18,18 @@
 PRODUCT_PACKAGES += \
     ims \
     imscmlibrary \
-    imssettings
+    imssettings \
+    RCSBootstraputil \
+    RcsImsBootstraputil \
+    LteBroadcastServices_vzw \
+    vzw_msdc_api
 
 # Libs and etc
 PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/permissions/com.verizon.ims.xml:system/etc/permissions/com.verizon.ims.xml \
     vendor/motorola/quark/proprietary/etc/permissions/rcsimssettings.xml:system/etc/permissions/rcsimssettings.xml \
     vendor/motorola/quark/proprietary/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
+    vendor/motorola/quark/proprietary/etc/permissions/com.motorola.ltebroadcastservices_vzw.defperms.xml:system/etc/permissions/com.motorola.ltebroadcastservices_vzw.defperms.xml \
     vendor/motorola/quark/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/motorola/quark/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/motorola/quark/proprietary/bin/imscmservice:system/bin/imscmservice \
@@ -59,4 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
     vendor/motorola/quark/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
     vendor/motorola/quark/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
-    vendor/motorola/quark/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so
+    vendor/motorola/quark/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
+    vendor/motorola/quark/proprietary/lib/libmsp_vzw.so:system/lib/libmsp_vzw.so \
+    vendor/motorola/quark/proprietary/priv-app/LteBroadcastServices_vzw/lib/arm/libmsp_vzw.so:system/priv-app/LteBroadcastServices_vzw/lib/arm/libmsp_vzw.so

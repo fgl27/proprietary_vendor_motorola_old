@@ -389,7 +389,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/app/KernelAdiutor/KernelAdiutor.apk:system/app/KernelAdiutor/KernelAdiutor.apk \
     vendor/motorola/quark/proprietary/app/InductiveChargeUI/InductiveChargeUI.apk:system/app/InductiveChargeUI/InductiveChargeUI.apk \
     vendor/motorola/quark/proprietary/etc/permissions/com.verizon.hardware.telephony.srlte.xml:system/etc/permissions/com.verizon.hardware.telephony.srlte.xml \
-    vendor/motorola/quark/proprietary/app/substratum/substratum.apk:system/app/substratum/substratum.apk
+    vendor/motorola/quark/proprietary/app/substratum/substratum.apk:system/app/substratum/substratum.apk \
+    vendor/motorola/quark/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/motorola/quark/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/motorola/quark/proprietary/etc/data/qcril.db:system/etc/motorola/qcril.db \
+    vendor/motorola/quark/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml
 
 # Verizon IMS from Shamu current config doesn’t work for quark
 $(call inherit-product, vendor/motorola/quark/quark-vendor-ims-blobs.mk)
