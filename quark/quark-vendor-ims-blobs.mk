@@ -18,6 +18,9 @@
 PRODUCT_PACKAGES += \
     ims \
     imscmlibrary \
+    com.verizon.ims \
+    rcsimssettings \
+    rcsservice \
     RCSBootstraputil \
     RcsImsBootstraputil \
     LteBroadcastServices_vzw \
@@ -29,15 +32,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/permissions/rcsimssettings.xml:system/etc/permissions/rcsimssettings.xml \
     vendor/motorola/quark/proprietary/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
     vendor/motorola/quark/proprietary/etc/permissions/com.motorola.ltebroadcastservices_vzw.defperms.xml:system/etc/permissions/com.motorola.ltebroadcastservices_vzw.defperms.xml \
-    vendor/motorola/quark/proprietary/etc/permissions/qcom_ims.xml:system/etc/permissions/qcom_ims.xml \
     vendor/motorola/quark/proprietary/etc/permissions/qcom_ims_permission.xml:system/etc/permissions/qcom_ims_permission.xml \
     vendor/motorola/quark/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/motorola/quark/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/motorola/quark/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/motorola/quark/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
-    vendor/motorola/quark/proprietary/app/ims/lib/arm/libimscamera_jni.so:system/vendor/app/ims/lib/arm/libimscamera_jni.so \
+    vendor/motorola/quark/proprietary/app/ims/lib/arm/libimscamera_jni.so:system/app/ims/lib/arm/libimscamera_jni.so \
     vendor/motorola/quark/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
-    vendor/motorola/quark/proprietary/app/ims/lib/arm/libimsmedia_jni.so:system/vendor/app/ims/lib/arm/libimsmedia_jni.so \
+    vendor/motorola/quark/proprietary/app/ims/lib/arm/libimsmedia_jni.so:system/app/ims/lib/arm/libimsmedia_jni.so \
     vendor/motorola/quark/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/motorola/quark/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     vendor/motorola/quark/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
