@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+     <package name="com.bhb27.isu">
+          <permission name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+     </package>
+     <package name="com.bhb27.kerneladiutor">
+          <permission name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+     </package>
+</permissions>
