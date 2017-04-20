@@ -29,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/permissions/rcsimssettings.xml:system/etc/permissions/rcsimssettings.xml \
     vendor/motorola/quark/proprietary/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
     vendor/motorola/quark/proprietary/etc/permissions/com.motorola.ltebroadcastservices_vzw.defperms.xml:system/etc/permissions/com.motorola.ltebroadcastservices_vzw.defperms.xml \
-    vendor/motorola/quark/proprietary/etc/permissions/qcom_ims.xml:system/etc/permissions/qcom_ims.xml \
     vendor/motorola/quark/proprietary/etc/permissions/qcom_ims_permission.xml:system/etc/permissions/qcom_ims_permission.xml \
     vendor/motorola/quark/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/motorola/quark/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
