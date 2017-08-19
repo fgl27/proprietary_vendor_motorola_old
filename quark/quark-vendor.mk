@@ -357,7 +357,8 @@ PRODUCT_PACKAGES += \
     com.verizon.hardware.telephony.lte \
     org.simalliance.openmobileapi \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    CarrierServices
 
 # BHB27 mod
 PRODUCT_PACKAGES += \

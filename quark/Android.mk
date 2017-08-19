@@ -403,8 +403,20 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := substratum
+LOCAL_MODULE := CarrierServices
 LOCAL_MODULE_OWNER := motorola
+LOCAL_SRC_FILES := proprietary/priv-app/CarrierServices/CarrierServices.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := substratum
+LOCAL_MODULE_OWNER := substratum
 LOCAL_SRC_FILES := proprietary/app/substratum/substratum.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_CERTIFICATE := platform
@@ -416,7 +428,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := KernelAdiutor
-LOCAL_MODULE_OWNER := motorola
+LOCAL_MODULE_OWNER := bhb27
 LOCAL_SRC_FILES := proprietary/app/KernelAdiutor/KernelAdiutor.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_CERTIFICATE := platform
@@ -428,7 +440,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := TurboToast
-LOCAL_MODULE_OWNER := motorola
+LOCAL_MODULE_OWNER := bhb27
 LOCAL_SRC_FILES := proprietary/app/TurboToast/TurboToast.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_CERTIFICATE := platform
@@ -440,7 +452,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := Adaway
-LOCAL_MODULE_OWNER := motorola
+LOCAL_MODULE_OWNER := Adaway
 LOCAL_SRC_FILES := proprietary/app/Adaway/Adaway.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_CERTIFICATE := platform
