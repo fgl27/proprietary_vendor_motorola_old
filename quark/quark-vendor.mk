@@ -42,6 +42,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/motorola/quark/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/quark/proprietary/bin/stm401:system/bin/stm401 \
+    vendor/motorola/quark/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
+    vendor/motorola/quark/proprietary/bin/tcmd_mini:system/bin/tcmd_mini \
     vendor/motorola/quark/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/motorola/quark/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/motorola/quark/proprietary/bin/wcnss_filter:system/bin/wcnss_filter \
