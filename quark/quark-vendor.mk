@@ -384,11 +384,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml:system/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml \
     vendor/motorola/quark/proprietary/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml \
     vendor/motorola/quark/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
-    vendor/motorola/quark/proprietary/app/Adaway/Adaway.apk:system/app/Adaway/Adaway.apk \
-    vendor/motorola/quark/proprietary/app/TurboToast/TurboToast.apk:system/app/TurboToast/TurboToast.apk \
-    vendor/motorola/quark/proprietary/app/KernelAdiutor/KernelAdiutor.apk:system/app/KernelAdiutor/KernelAdiutor.apk \
-    vendor/motorola/quark/proprietary/etc/permissions/com.verizon.hardware.telephony.srlte.xml:system/etc/permissions/com.verizon.hardware.telephony.srlte.xml \
-    vendor/motorola/quark/proprietary/app/substratum/substratum.apk:system/app/substratum/substratum.apk
+    vendor/motorola/quark/proprietary/etc/permissions/com.verizon.hardware.telephony.srlte.xml:system/etc/permissions/com.verizon.hardware.telephony.srlte.xml
 
 # Verizon IMS from Shamu current config doesn’t work for quark
 #$(call inherit-product, vendor/motorola/quark/quark-vendor-ims-blobs.mk)
