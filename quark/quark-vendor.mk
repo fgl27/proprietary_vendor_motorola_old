@@ -363,7 +363,11 @@ PRODUCT_PACKAGES += \
 # BHB27 mod
 PRODUCT_PACKAGES += \
     com.google.android.maps \
-    com.verizon.hardware.telephony.srlte
+    com.verizon.hardware.telephony.srlte \
+    substratum \
+    KernelAdiutor \
+    TurboToast \
+    Adaway
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/permissions/com.motorola.DirectedSMSProxy.xml:system/etc/permissions/com.motorola.DirectedSMSProxy.xml \
