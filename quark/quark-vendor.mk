@@ -18,7 +18,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/motorola/quark/proprietary/bin/adspd:system/bin/adspd \
     vendor/motorola/quark/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/motorola/quark/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/quark/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/quark/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/motorola/quark/proprietary/bin/cnd:system/bin/cnd \
