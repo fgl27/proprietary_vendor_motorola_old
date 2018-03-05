@@ -110,19 +110,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/firmware/vpu.b12:system/etc/firmware/vpu.b12 \
     vendor/motorola/quark/proprietary/etc/firmware/vpu.mbn:system/etc/firmware/vpu.mbn \
     vendor/motorola/quark/proprietary/etc/firmware/vpu.mdt:system/etc/firmware/vpu.mdt \
-    vendor/motorola/quark/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/motorola/quark/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/motorola/quark/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/motorola/quark/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/motorola/quark/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/motorola/quark/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \
     vendor/motorola/quark/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/motorola/quark/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/motorola/quark/proprietary/etc/quipc.conf:system/etc/quipc.conf \
-    vendor/motorola/quark/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/motorola/quark/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
     vendor/motorola/quark/proprietary/lib/hw/camera.vendor.apq8084.so:system/lib/hw/camera.vendor.apq8084.so \
-    vendor/motorola/quark/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/motorola/quark/proprietary/lib/hw/sensorhub.apq8084.so:system/lib/hw/sensorhub.apq8084.so \
     vendor/motorola/quark/proprietary/lib/hw/sensors.apq8084.so:system/lib/hw/sensors.apq8084.so \
     vendor/motorola/quark/proprietary/lib/hw/sound_trigger.primary.apq8084.so:system/lib/hw/sound_trigger.primary.apq8084.so \
@@ -137,11 +132,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/lib/libcamerabgproc-jni.so:system/lib/libcamerabgproc-jni.so \
     vendor/motorola/quark/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
     vendor/motorola/quark/proprietary/lib/libdetectmodem.so:system/lib/libdetectmodem.so \
-    vendor/motorola/quark/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/motorola/quark/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/motorola/quark/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/motorola/quark/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/motorola/quark/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/motorola/quark/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
     vendor/motorola/quark/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/motorola/quark/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
