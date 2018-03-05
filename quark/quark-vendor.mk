@@ -110,6 +110,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/firmware/vpu.b12:system/etc/firmware/vpu.b12 \
     vendor/motorola/quark/proprietary/etc/firmware/vpu.mbn:system/etc/firmware/vpu.mbn \
     vendor/motorola/quark/proprietary/etc/firmware/vpu.mdt:system/etc/firmware/vpu.mdt \
+    vendor/motorola/quark/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/motorola/quark/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/motorola/quark/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/motorola/quark/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
