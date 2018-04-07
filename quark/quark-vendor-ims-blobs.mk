@@ -16,26 +16,27 @@
 
 # apps and frame
 PRODUCT_PACKAGES += \
-    com.verizon.ims \
     ims \
-    RCSBootstraputil \
-    RcsImsBootstraputil \
+    imscmlibrary \
+    com.verizon.ims \
     rcsimssettings \
     rcsservice \
-    com.motorola.motosignature \
-    com.motorola.ims.rcsmanager \
-    imscmlibrary \
+    RCSBootstraputil \
+    RcsImsBootstraputil \
+    LteBroadcastServices_vzw \
+    vzw_msdc_api
 
 # Libs and etc
 PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/permissions/com.verizon.ims.xml:system/etc/permissions/com.verizon.ims.xml \
     vendor/motorola/quark/proprietary/etc/permissions/rcsimssettings.xml:system/etc/permissions/rcsimssettings.xml \
     vendor/motorola/quark/proprietary/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
+    vendor/motorola/quark/proprietary/etc/permissions/com.motorola.ltebroadcastservices_vzw.defperms.xml:system/etc/permissions/com.motorola.ltebroadcastservices_vzw.defperms.xml \
+    vendor/motorola/quark/proprietary/etc/permissions/qcom_ims_permission.xml:system/etc/permissions/qcom_ims_permission.xml \
     vendor/motorola/quark/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/motorola/quark/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/motorola/quark/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
+    vendor/motorola/quark/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/motorola/quark/proprietary/app/ims/lib/arm/libimscamera_jni.so:system/app/ims/lib/arm/libimscamera_jni.so \
-    vendor/motorola/quark/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/motorola/quark/proprietary/app/ims/lib/arm/libimsmedia_jni.so:system/app/ims/lib/arm/libimsmedia_jni.so \
     vendor/motorola/quark/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/motorola/quark/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
@@ -60,4 +61,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/motorola/quark/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/motorola/quark/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so
+    vendor/motorola/quark/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-imsrcscm.so:system/vendor/lib/lib-imsrcscm.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-imsrcscmclient.so:system/vendor/lib/lib-imsrcscmclient.so \
+    vendor/motorola/quark/proprietary/vendor/lib/lib-imsrcscmservice.so:system/vendor/lib/lib-imsrcscmservice.so \
+    vendor/motorola/quark/proprietary/lib/libmsp_vzw.so:system/lib/libmsp_vzw.so \
+    vendor/motorola/quark/proprietary/priv-app/LteBroadcastServices_vzw/lib/arm/libmsp_vzw.so:system/priv-app/LteBroadcastServices_vzw/lib/arm/libmsp_vzw.so \
+    vendor/motorola/quark/proprietary/etc/diag_mdlog/Connection_Issues_V11.cfg:system/etc/diag_mdlog/Connection_Issues_V11.cfg \
+    vendor/motorola/quark/proprietary/etc/diag_mdlog/default.cfg:system/etc/diag_mdlog/default.cfg \
+    vendor/motorola/quark/proprietary/etc/diag_mdlog/default.opts:system/etc/diag_mdlog/default.opts \
+    vendor/motorola/quark/proprietary/etc/diag_mdlog/FIT_V20_1.cfg:system/etc/diag_mdlog/FIT_V20_1.cfg \
+    vendor/motorola/quark/proprietary/etc/diag_mdlog/FIT_V20_2_volte_full_ip.cfg:system/etc/diag_mdlog/FIT_V20_2_volte_full_ip.cfg \
+    vendor/motorola/quark/proprietary/etc/diag_mdlog/Vzw_Connection_Issues_V2.cfg:system/etc/diag_mdlog/Vzw_Connection_Issues_V2.cfg
