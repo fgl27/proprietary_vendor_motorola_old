@@ -390,6 +390,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/permissions/com.verizon.hardware.telephony.srlte.xml:system/etc/permissions/com.verizon.hardware.telephony.srlte.xml
 
 # Verizon IMS from Shamu current config doesn’t work for quark
-#$(call inherit-product, vendor/motorola/quark/quark-vendor-ims-blobs.mk)
+$(call inherit-product, vendor/motorola/quark/quark-vendor-ims-blobs.mk)
 # Shamu audiomonitor files current config doesn’t work for quark
 #$(call inherit-product, vendor/motorola/quark/quark-vendor-quark-vendor-audiomonitor-blobs.mk)
