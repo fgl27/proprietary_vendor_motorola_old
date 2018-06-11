@@ -18,20 +18,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/motorola/athene/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/motorola/athene/proprietary/bin/audiod:system/bin/audiod \
-    vendor/motorola/athene/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/athene/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/athene/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/motorola/athene/proprietary/bin/cnd:system/bin/cnd \
     vendor/motorola/athene/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/motorola/athene/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
-    vendor/motorola/athene/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/athene/proprietary/bin/dun-server:system/bin/dun-server \
     vendor/motorola/athene/proprietary/bin/fingerprintd:system/bin/fingerprintd \
     vendor/motorola/athene/proprietary/bin/ftmdaemon:system/bin/ftmdaemon \
     vendor/motorola/athene/proprietary/bin/ftmipcd:system/bin/ftmipcd \
     vendor/motorola/athene/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/motorola/athene/proprietary/bin/hal_proxy_daemon:system/bin/hal_proxy_daemon \
-    vendor/motorola/athene/proprietary/bin/hardware_revisions.sh:system/bin/hardware_revisions.sh \
     vendor/motorola/athene/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/athene/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/motorola/athene/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
@@ -192,7 +189,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/athene/proprietary/framework/com.motorola.camerabgproc.jar:system/framework/com.motorola.camerabgproc.jar \
     vendor/motorola/athene/proprietary/framework/com.motorola.frameworks.core.addon.jar:system/framework/com.motorola.frameworks.core.addon.jar \
     vendor/motorola/athene/proprietary/framework/com.motorola.imager.athene.jar:system/framework/com.motorola.imager.athene.jar \
-    vendor/motorola/athene/proprietary/lib/hw/camera.msm8952.so:system/lib/hw/camera.msm8952.so \
+    vendor/motorola/athene/proprietary/lib/hw/camera.vendor.msm8952.so:system/lib/hw/camera.vendor.msm8952.so \
     vendor/motorola/athene/proprietary/lib/hw/fingerprint.msm8952.so:system/lib/hw/fingerprint.msm8952.so \
     vendor/motorola/athene/proprietary/lib/hw/sensorhub.msm8952.so:system/lib/hw/sensorhub.msm8952.so \
     vendor/motorola/athene/proprietary/lib/hw/sensors.msm8952.so:system/lib/hw/sensors.msm8952.so \
