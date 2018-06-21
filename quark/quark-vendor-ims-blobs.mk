@@ -73,4 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/diag_mdlog/default.opts:system/etc/diag_mdlog/default.opts \
     vendor/motorola/quark/proprietary/etc/diag_mdlog/FIT_V20_1.cfg:system/etc/diag_mdlog/FIT_V20_1.cfg \
     vendor/motorola/quark/proprietary/etc/diag_mdlog/FIT_V20_2_volte_full_ip.cfg:system/etc/diag_mdlog/FIT_V20_2_volte_full_ip.cfg \
-    vendor/motorola/quark/proprietary/etc/diag_mdlog/Vzw_Connection_Issues_V2.cfg:system/etc/diag_mdlog/Vzw_Connection_Issues_V2.cfg
+    vendor/motorola/quark/proprietary/etc/diag_mdlog/Vzw_Connection_Issues_V2.cfg:system/etc/diag_mdlog/Vzw_Connection_Issues_V2.cfg \
+    vendor/motorola/quark/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
+    vendor/motorola/quark/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml
