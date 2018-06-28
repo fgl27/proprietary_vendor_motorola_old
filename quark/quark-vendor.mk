@@ -152,7 +152,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/quark/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/motorola/quark/proprietary/lib/librecoglib.so:system/lib/librecoglib.so \
-    vendor/motorola/quark/proprietary/lib/soundfx/libspeakerbundle.so:system/lib/soundfx/libspeakerbundle.so \
+    vendor/motorola/quark/proprietary/vendor/lib/soundfx/libspeakerbundle.so:system/vendor/lib/soundfx/libspeakerbundle.so \
     vendor/motorola/quark/proprietary/lib/libsupermodel.so:system/lib/libsupermodel.so \
     vendor/motorola/quark/proprietary/lib/libtrainingcheck.so:system/lib/libtrainingcheck.so \
     vendor/motorola/quark/proprietary/vendor/etc/gnss/gnss-fsh.bin:system/vendor/etc/gnss/gnss-fsh.bin \
