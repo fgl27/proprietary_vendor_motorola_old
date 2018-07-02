@@ -355,7 +355,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     com.google.android.maps \
     com.verizon.hardware.telephony.srlte \
-    substratum \
     KernelAdiutor \
     TurboToast \
     Adaway
