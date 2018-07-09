@@ -113,6 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/motorola/quark/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/motorola/quark/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/motorola/quark/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/motorola/quark/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/motorola/quark/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \
     vendor/motorola/quark/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
@@ -347,7 +348,7 @@ PRODUCT_PACKAGES += \
     MotoSignatureApp \
     VZWAPNService \
     com.qualcomm.location \
-    com.qualcomm.services.location \
+    com.qualcomm.location.vzw_library \
     cneapiclient \
     com.quicinc.cne \
     com.verizon.hardware.telephony.ehrpd \
