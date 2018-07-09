@@ -347,8 +347,6 @@ PRODUCT_PACKAGES += \
     CNEService \
     MotoSignatureApp \
     VZWAPNService \
-    com.qualcomm.location \
-    com.qualcomm.services.location \
     cneapiclient \
     com.quicinc.cne \
     com.verizon.hardware.telephony.ehrpd \
