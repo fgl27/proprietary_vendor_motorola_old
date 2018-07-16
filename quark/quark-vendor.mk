@@ -51,29 +51,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:system/vendor/etc/acdbdata/Headset_cal.acdb \
     vendor/motorola/quark/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:system/vendor/etc/acdbdata/Speaker_cal.acdb \
     vendor/motorola/quark/proprietary/etc/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Signed_configdata.ncd:system/etc/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Signed_configdata.ncd \
-    vendor/motorola/quark/proprietary/etc/firmware/VRGain.bin:system/etc/firmware/VRGain.bin \
-    vendor/motorola/quark/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
-    vendor/motorola/quark/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/motorola/quark/proprietary/etc/firmware/aonvr1.bin:system/etc/firmware/aonvr1.bin \
-    vendor/motorola/quark/proprietary/etc/firmware/aonvr2.bin:system/etc/firmware/aonvr2.bin \
     vendor/motorola/quark/proprietary/etc/firmware/atmel-a432-14102602-0103aa-quark.tdat:system/etc/firmware/atmel-a432-14102602-0103aa-quark.tdat \
     vendor/motorola/quark/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/motorola/quark/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/motorola/quark/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/motorola/quark/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/motorola/quark/proprietary/etc/firmware/cy8c20247_24lkxi.hex:system/etc/firmware/cy8c20247_24lkxi.hex \
-    vendor/motorola/quark/proprietary/etc/firmware/left.tfa9890.music.config:system/etc/firmware/left.tfa9890.music.config \
-    vendor/motorola/quark/proprietary/etc/firmware/left.tfa9890.music.eq:system/etc/firmware/left.tfa9890.music.eq \
-    vendor/motorola/quark/proprietary/etc/firmware/left.tfa9890.ringtone.config:system/etc/firmware/left.tfa9890.ringtone.config \
-    vendor/motorola/quark/proprietary/etc/firmware/left.tfa9890.ringtone.eq:system/etc/firmware/left.tfa9890.ringtone.eq \
-    vendor/motorola/quark/proprietary/etc/firmware/left.tfa9890.speaker:system/etc/firmware/left.tfa9890.speaker \
-    vendor/motorola/quark/proprietary/etc/firmware/left.tfa9890.voice.config:system/etc/firmware/left.tfa9890.voice.config \
-    vendor/motorola/quark/proprietary/etc/firmware/left.tfa9890.voice.eq:system/etc/firmware/left.tfa9890.voice.eq \
-    vendor/motorola/quark/proprietary/etc/firmware/left.tfa9890_music_table.preset:system/etc/firmware/left.tfa9890_music_table.preset \
-    vendor/motorola/quark/proprietary/etc/firmware/left.tfa9890_n1b12.patch:system/etc/firmware/left.tfa9890_n1b12.patch \
-    vendor/motorola/quark/proprietary/etc/firmware/left.tfa9890_n1c2.patch:system/etc/firmware/left.tfa9890_n1c2.patch \
-    vendor/motorola/quark/proprietary/etc/firmware/left.tfa9890_ringtone_table.preset:system/etc/firmware/left.tfa9890_ringtone_table.preset \
-    vendor/motorola/quark/proprietary/etc/firmware/left.tfa9890_voice_table.preset:system/etc/firmware/left.tfa9890_voice_table.preset \
     vendor/motorola/quark/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin \
     vendor/motorola/quark/proprietary/etc/firmware/sensorhubfw_p1.bin:system/etc/firmware/sensorhubfw_p1.bin \
     vendor/motorola/quark/proprietary/etc/firmware/sensorhubver.txt:system/etc/firmware/sensorhubver.txt \
@@ -145,8 +128,25 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/lib/soundfx/libspeakerbundle.so:system/vendor/lib/soundfx/libspeakerbundle.so \
     vendor/motorola/quark/proprietary/lib/libsupermodel.so:system/lib/libsupermodel.so \
     vendor/motorola/quark/proprietary/lib/libtrainingcheck.so:system/lib/libtrainingcheck.so \
+    vendor/motorola/quark/proprietary/vendor/etc/firmware/aonvr1.bin:system/vendor/etc/firmware/aonvr1.bin \
+    vendor/motorola/quark/proprietary/vendor/etc/firmware/aonvr2.bin:system/vendor/etc/firmware/aonvr2.bin \
     vendor/motorola/quark/proprietary/vendor/etc/gnss/gnss-fsh.bin:system/vendor/etc/gnss/gnss-fsh.bin \
+    vendor/motorola/quark/proprietary/vendor/firmware/VRGain.bin:system/vendor/firmware/VRGain.bin \
+    vendor/motorola/quark/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
+    vendor/motorola/quark/proprietary/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
     vendor/motorola/quark/proprietary/vendor/firmware/bcm20795_firmware.ncd:system/vendor/firmware/bcm20795_firmware.ncd \
+    vendor/motorola/quark/proprietary/vendor/firmware/left.tfa9890.music.config:system/vendor/firmware/left.tfa9890.music.config \
+    vendor/motorola/quark/proprietary/vendor/firmware/left.tfa9890.music.eq:system/vendor/firmware/left.tfa9890.music.eq \
+    vendor/motorola/quark/proprietary/vendor/firmware/left.tfa9890.ringtone.config:system/vendor/firmware/left.tfa9890.ringtone.config \
+    vendor/motorola/quark/proprietary/vendor/firmware/left.tfa9890.ringtone.eq:system/vendor/firmware/left.tfa9890.ringtone.eq \
+    vendor/motorola/quark/proprietary/vendor/firmware/left.tfa9890.speaker:system/vendor/firmware/left.tfa9890.speaker \
+    vendor/motorola/quark/proprietary/vendor/firmware/left.tfa9890.voice.config:system/vendor/firmware/left.tfa9890.voice.config \
+    vendor/motorola/quark/proprietary/vendor/firmware/left.tfa9890.voice.eq:system/vendor/firmware/left.tfa9890.voice.eq \
+    vendor/motorola/quark/proprietary/vendor/firmware/left.tfa9890_music_table.preset:system/vendor/firmware/left.tfa9890_music_table.preset \
+    vendor/motorola/quark/proprietary/vendor/firmware/left.tfa9890_n1b12.patch:system/vendor/firmware/left.tfa9890_n1b12.patch \
+    vendor/motorola/quark/proprietary/vendor/firmware/left.tfa9890_n1c2.patch:system/vendor/firmware/left.tfa9890_n1c2.patch \
+    vendor/motorola/quark/proprietary/vendor/firmware/left.tfa9890_ringtone_table.preset:system/vendor/firmware/left.tfa9890_ringtone_table.preset \
+    vendor/motorola/quark/proprietary/vendor/firmware/left.tfa9890_voice_table.preset:system/vendor/firmware/left.tfa9890_voice_table.preset \
     vendor/motorola/quark/proprietary/vendor/firmware/nvm_tlv.bin:system/vendor/firmware/nvm_tlv.bin \
     vendor/motorola/quark/proprietary/vendor/firmware/nvm_tlv_1.3.bin:system/vendor/firmware/nvm_tlv_1.3.bin \
     vendor/motorola/quark/proprietary/vendor/firmware/nvm_tlv_2.1.bin:system/vendor/firmware/nvm_tlv_2.1.bin \
