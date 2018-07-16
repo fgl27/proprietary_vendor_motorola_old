@@ -103,11 +103,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/motorola/quark/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/motorola/quark/proprietary/etc/izat.conf:system/etc/izat.conf \
-    vendor/motorola/quark/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/motorola/quark/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/motorola/quark/proprietary/etc/permissions/org.simalliance.openmobileapi.xml:system/etc/permissions/org.simalliance.openmobileapi.xml \
-    vendor/motorola/quark/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/motorola/quark/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/motorola/quark/proprietary/vendor/etc/permissions/cneapiclient.xml:system/vendor/etc/permissions/cneapiclient.xml \
+    vendor/motorola/quark/proprietary/vendor/etc/permissions/com.quicinc.cne.xml:system/vendor/etc/permissions/com.quicinc.cne.xml \
+    vendor/motorola/quark/proprietary/vendor/etc/permissions/org.simalliance.openmobileapi.xml:system/vendor/etc/permissions/org.simalliance.openmobileapi.xml \
+    vendor/motorola/quark/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
+    vendor/motorola/quark/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
     vendor/motorola/quark/proprietary/etc/quipc.conf:system/etc/quipc.conf \
     vendor/motorola/quark/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/motorola/quark/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
@@ -365,11 +365,11 @@ PRODUCT_PACKAGES += \
     Adaway
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/quark/proprietary/etc/permissions/com.motorola.DirectedSMSProxy.xml:system/etc/permissions/com.motorola.DirectedSMSProxy.xml \
-    vendor/motorola/quark/proprietary/etc/permissions/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml \
+    vendor/motorola/quark/proprietary/vendor/etc/permissions/com.motorola.DirectedSMSProxy.xml:system/vendor/etc/permissions/com.motorola.DirectedSMSProxy.xml \
+    vendor/motorola/quark/proprietary/vendor/etc/permissions/com.vzw.vzwapnlib.xml:system/vendor/etc/permissions/com.vzw.vzwapnlib.xml \
     vendor/motorola/quark/proprietary/lib/libjni_keyboarddecoder.so:system/lib/libjni_keyboarddecoder.so \
     vendor/motorola/quark/proprietary/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so \
-    vendor/motorola/quark/proprietary/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
+    vendor/motorola/quark/proprietary/vendor/etc/permissions/com.google.android.maps.xml:system/vendor/etc/permissions/com.google.android.maps.xml \
     vendor/motorola/quark/proprietary/app/Adaway/lib/arm/libblank_webserver_exec.so:system/app/Adaway/lib/arm/libblank_webserver_exec.so \
     vendor/motorola/quark/proprietary/app/Adaway/lib/arm/libtcpdump_exec.so:system/app/Adaway/lib/arm/libtcpdump_exec.so \
     vendor/motorola/quark/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
@@ -378,10 +378,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/motorola/quark/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/motorola/quark/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
-    vendor/motorola/quark/proprietary/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml:system/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml \
-    vendor/motorola/quark/proprietary/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml \
+    vendor/motorola/quark/proprietary/vendor/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml:system/vendor/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml \
+    vendor/motorola/quark/proprietary/vendor/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/vendor/etc/permissions/com.verizon.hardware.telephony.lte.xml \
     vendor/motorola/quark/proprietary/vendor/lib/libmmqjpegdma.so:system/vendor/lib/libmmqjpegdma.so \
-    vendor/motorola/quark/proprietary/etc/permissions/com.verizon.hardware.telephony.srlte.xml:system/etc/permissions/com.verizon.hardware.telephony.srlte.xml
+    vendor/motorola/quark/proprietary/vendor/etc/permissions/com.verizon.hardware.telephony.srlte.xml:system/vendor/etc/permissions/com.verizon.hardware.telephony.srlte.xml
 
 # Verizon IMS from Shamu current config doesn’t work for quark
 #$(call inherit-product, vendor/motorola/quark/quark-vendor-ims-blobs.mk)
