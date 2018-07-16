@@ -50,28 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:system/vendor/etc/acdbdata/Hdmi_cal.acdb \
     vendor/motorola/quark/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:system/vendor/etc/acdbdata/Headset_cal.acdb \
     vendor/motorola/quark/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:system/vendor/etc/acdbdata/Speaker_cal.acdb \
-    vendor/motorola/quark/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/motorola/quark/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/motorola/quark/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    vendor/motorola/quark/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/motorola/quark/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/motorola/quark/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/motorola/quark/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/motorola/quark/proprietary/etc/firmware/vpu.b00:system/etc/firmware/vpu.b00 \
-    vendor/motorola/quark/proprietary/etc/firmware/vpu.b01:system/etc/firmware/vpu.b01 \
-    vendor/motorola/quark/proprietary/etc/firmware/vpu.b02:system/etc/firmware/vpu.b02 \
-    vendor/motorola/quark/proprietary/etc/firmware/vpu.b03:system/etc/firmware/vpu.b03 \
-    vendor/motorola/quark/proprietary/etc/firmware/vpu.b04:system/etc/firmware/vpu.b04 \
-    vendor/motorola/quark/proprietary/etc/firmware/vpu.b05:system/etc/firmware/vpu.b05 \
-    vendor/motorola/quark/proprietary/etc/firmware/vpu.b06:system/etc/firmware/vpu.b06 \
-    vendor/motorola/quark/proprietary/etc/firmware/vpu.b07:system/etc/firmware/vpu.b07 \
-    vendor/motorola/quark/proprietary/etc/firmware/vpu.b08:system/etc/firmware/vpu.b08 \
-    vendor/motorola/quark/proprietary/etc/firmware/vpu.b09:system/etc/firmware/vpu.b09 \
-    vendor/motorola/quark/proprietary/etc/firmware/vpu.b10:system/etc/firmware/vpu.b10 \
-    vendor/motorola/quark/proprietary/etc/firmware/vpu.b11:system/etc/firmware/vpu.b11 \
-    vendor/motorola/quark/proprietary/etc/firmware/vpu.b12:system/etc/firmware/vpu.b12 \
-    vendor/motorola/quark/proprietary/etc/firmware/vpu.mbn:system/etc/firmware/vpu.mbn \
-    vendor/motorola/quark/proprietary/etc/firmware/vpu.mdt:system/etc/firmware/vpu.mdt \
     vendor/motorola/quark/proprietary/etc/flp.conf:system/etc/flp.conf \
     vendor/motorola/quark/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/motorola/quark/proprietary/etc/izat.conf:system/etc/izat.conf \
@@ -155,6 +133,28 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/firmware/rampatch_tlv_1.3.tlv:system/vendor/firmware/rampatch_tlv_1.3.tlv \
     vendor/motorola/quark/proprietary/vendor/firmware/rampatch_tlv_2.1.tlv:system/vendor/firmware/rampatch_tlv_2.1.tlv \
     vendor/motorola/quark/proprietary/vendor/firmware/rampatch_tlv_3.0.tlv:system/vendor/firmware/rampatch_tlv_3.0.tlv \
+    vendor/motorola/quark/proprietary/vendor/firmware/venus.b00:system/vendor/firmware/venus.b00 \
+    vendor/motorola/quark/proprietary/vendor/firmware/venus.b01:system/vendor/firmware/venus.b01 \
+    vendor/motorola/quark/proprietary/vendor/firmware/venus.b02:system/vendor/firmware/venus.b02 \
+    vendor/motorola/quark/proprietary/vendor/firmware/venus.b03:system/vendor/firmware/venus.b03 \
+    vendor/motorola/quark/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
+    vendor/motorola/quark/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
+    vendor/motorola/quark/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
+    vendor/motorola/quark/proprietary/vendor/firmware/vpu.b00:system/vendor/firmware/vpu.b00 \
+    vendor/motorola/quark/proprietary/vendor/firmware/vpu.b01:system/vendor/firmware/vpu.b01 \
+    vendor/motorola/quark/proprietary/vendor/firmware/vpu.b02:system/vendor/firmware/vpu.b02 \
+    vendor/motorola/quark/proprietary/vendor/firmware/vpu.b03:system/vendor/firmware/vpu.b03 \
+    vendor/motorola/quark/proprietary/vendor/firmware/vpu.b04:system/vendor/firmware/vpu.b04 \
+    vendor/motorola/quark/proprietary/vendor/firmware/vpu.b05:system/vendor/firmware/vpu.b05 \
+    vendor/motorola/quark/proprietary/vendor/firmware/vpu.b06:system/vendor/firmware/vpu.b06 \
+    vendor/motorola/quark/proprietary/vendor/firmware/vpu.b07:system/vendor/firmware/vpu.b07 \
+    vendor/motorola/quark/proprietary/vendor/firmware/vpu.b08:system/vendor/firmware/vpu.b08 \
+    vendor/motorola/quark/proprietary/vendor/firmware/vpu.b09:system/vendor/firmware/vpu.b09 \
+    vendor/motorola/quark/proprietary/vendor/firmware/vpu.b10:system/vendor/firmware/vpu.b10 \
+    vendor/motorola/quark/proprietary/vendor/firmware/vpu.b11:system/vendor/firmware/vpu.b11 \
+    vendor/motorola/quark/proprietary/vendor/firmware/vpu.b12:system/vendor/firmware/vpu.b12 \
+    vendor/motorola/quark/proprietary/vendor/firmware/vpu.mbn:system/vendor/firmware/vpu.mbn \
+    vendor/motorola/quark/proprietary/vendor/firmware/vpu.mdt:system/vendor/firmware/vpu.mdt \
     vendor/motorola/quark/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
     vendor/motorola/quark/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
     vendor/motorola/quark/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
