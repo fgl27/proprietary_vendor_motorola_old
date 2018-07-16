@@ -74,14 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/firmware/left.tfa9890_n1c2.patch:system/etc/firmware/left.tfa9890_n1c2.patch \
     vendor/motorola/quark/proprietary/etc/firmware/left.tfa9890_ringtone_table.preset:system/etc/firmware/left.tfa9890_ringtone_table.preset \
     vendor/motorola/quark/proprietary/etc/firmware/left.tfa9890_voice_table.preset:system/etc/firmware/left.tfa9890_voice_table.preset \
-    vendor/motorola/quark/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
-    vendor/motorola/quark/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
-    vendor/motorola/quark/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
-    vendor/motorola/quark/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
-    vendor/motorola/quark/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
-    vendor/motorola/quark/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
-    vendor/motorola/quark/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
-    vendor/motorola/quark/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
     vendor/motorola/quark/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin \
     vendor/motorola/quark/proprietary/etc/firmware/sensorhubfw_p1.bin:system/etc/firmware/sensorhubfw_p1.bin \
     vendor/motorola/quark/proprietary/etc/firmware/sensorhubver.txt:system/etc/firmware/sensorhubver.txt \
@@ -154,6 +146,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/lib/libsupermodel.so:system/lib/libsupermodel.so \
     vendor/motorola/quark/proprietary/lib/libtrainingcheck.so:system/lib/libtrainingcheck.so \
     vendor/motorola/quark/proprietary/vendor/etc/gnss/gnss-fsh.bin:system/vendor/etc/gnss/gnss-fsh.bin \
+    vendor/motorola/quark/proprietary/vendor/firmware/nvm_tlv.bin:system/vendor/firmware/nvm_tlv.bin \
+    vendor/motorola/quark/proprietary/vendor/firmware/nvm_tlv_1.3.bin:system/vendor/firmware/nvm_tlv_1.3.bin \
+    vendor/motorola/quark/proprietary/vendor/firmware/nvm_tlv_2.1.bin:system/vendor/firmware/nvm_tlv_2.1.bin \
+    vendor/motorola/quark/proprietary/vendor/firmware/nvm_tlv_3.0.bin:system/vendor/firmware/nvm_tlv_3.0.bin \
+    vendor/motorola/quark/proprietary/vendor/firmware/rampatch_tlv.img:system/vendor/firmware/rampatch_tlv.img \
+    vendor/motorola/quark/proprietary/vendor/firmware/rampatch_tlv_1.3.tlv:system/vendor/firmware/rampatch_tlv_1.3.tlv \
+    vendor/motorola/quark/proprietary/vendor/firmware/rampatch_tlv_2.1.tlv:system/vendor/firmware/rampatch_tlv_2.1.tlv \
+    vendor/motorola/quark/proprietary/vendor/firmware/rampatch_tlv_3.0.tlv:system/vendor/firmware/rampatch_tlv_3.0.tlv \
     vendor/motorola/quark/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
     vendor/motorola/quark/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
     vendor/motorola/quark/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
