@@ -57,10 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/motorola/quark/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/motorola/quark/proprietary/etc/firmware/cy8c20247_24lkxi.hex:system/etc/firmware/cy8c20247_24lkxi.hex \
-    vendor/motorola/quark/proprietary/etc/firmware/sensorhubfw.bin:system/etc/firmware/sensorhubfw.bin \
-    vendor/motorola/quark/proprietary/etc/firmware/sensorhubfw_p1.bin:system/etc/firmware/sensorhubfw_p1.bin \
-    vendor/motorola/quark/proprietary/etc/firmware/sensorhubver.txt:system/etc/firmware/sensorhubver.txt \
-    vendor/motorola/quark/proprietary/etc/firmware/sensorhubver_p1.txt:system/etc/firmware/sensorhubver_p1.txt \
     vendor/motorola/quark/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/motorola/quark/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/motorola/quark/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
@@ -130,6 +126,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/lib/libtrainingcheck.so:system/lib/libtrainingcheck.so \
     vendor/motorola/quark/proprietary/vendor/etc/firmware/aonvr1.bin:system/vendor/etc/firmware/aonvr1.bin \
     vendor/motorola/quark/proprietary/vendor/etc/firmware/aonvr2.bin:system/vendor/etc/firmware/aonvr2.bin \
+    vendor/motorola/quark/proprietary/vendor/etc/firmware/sensorhubfw.bin:system/vendor/etc/firmware/sensorhubfw.bin \
+    vendor/motorola/quark/proprietary/vendor/etc/firmware/sensorhubfw_p1.bin:system/vendor/etc/firmware/sensorhubfw_p1.bin \
+    vendor/motorola/quark/proprietary/vendor/etc/firmware/sensorhubver.txt:system/vendor/etc/firmware/sensorhubver.txt \
+    vendor/motorola/quark/proprietary/vendor/etc/firmware/sensorhubver_p1.txt:system/vendor/etc/firmware/sensorhubver_p1.txt \
     vendor/motorola/quark/proprietary/vendor/etc/gnss/gnss-fsh.bin:system/vendor/etc/gnss/gnss-fsh.bin \
     vendor/motorola/quark/proprietary/vendor/firmware/VRGain.bin:system/vendor/firmware/VRGain.bin \
     vendor/motorola/quark/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
