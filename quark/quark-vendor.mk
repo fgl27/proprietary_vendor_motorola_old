@@ -43,13 +43,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/motorola/quark/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/motorola/quark/proprietary/vendor/bin/wcnss_filter:system/vendor/bin/wcnss_filter \
-    vendor/motorola/quark/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
-    vendor/motorola/quark/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
-    vendor/motorola/quark/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
-    vendor/motorola/quark/proprietary/etc/acdbdata/Handset_cal.acdb:system/etc/acdbdata/Handset_cal.acdb \
-    vendor/motorola/quark/proprietary/etc/acdbdata/Hdmi_cal.acdb:system/etc/acdbdata/Hdmi_cal.acdb \
-    vendor/motorola/quark/proprietary/etc/acdbdata/Headset_cal.acdb:system/etc/acdbdata/Headset_cal.acdb \
-    vendor/motorola/quark/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
+    vendor/motorola/quark/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:system/vendor/etc/acdbdata/Bluetooth_cal.acdb \
+    vendor/motorola/quark/proprietary/vendor/etc/acdbdata/General_cal.acdb:system/vendor/etc/acdbdata/General_cal.acdb \
+    vendor/motorola/quark/proprietary/vendor/etc/acdbdata/Global_cal.acdb:system/vendor/etc/acdbdata/Global_cal.acdb \
+    vendor/motorola/quark/proprietary/vendor/etc/acdbdata/Handset_cal.acdb:system/vendor/etc/acdbdata/Handset_cal.acdb \
+    vendor/motorola/quark/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:system/vendor/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/motorola/quark/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:system/vendor/etc/acdbdata/Headset_cal.acdb \
+    vendor/motorola/quark/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:system/vendor/etc/acdbdata/Speaker_cal.acdb \
     vendor/motorola/quark/proprietary/etc/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Signed_configdata.ncd:system/etc/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Signed_configdata.ncd \
     vendor/motorola/quark/proprietary/etc/firmware/VRGain.bin:system/etc/firmware/VRGain.bin \
     vendor/motorola/quark/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
