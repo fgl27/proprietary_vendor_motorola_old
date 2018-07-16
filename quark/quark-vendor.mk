@@ -52,10 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:system/vendor/etc/acdbdata/Speaker_cal.acdb \
     vendor/motorola/quark/proprietary/etc/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Signed_configdata.ncd:system/etc/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Signed_configdata.ncd \
     vendor/motorola/quark/proprietary/etc/firmware/atmel-a432-14102602-0103aa-quark.tdat:system/etc/firmware/atmel-a432-14102602-0103aa-quark.tdat \
-    vendor/motorola/quark/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/motorola/quark/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/motorola/quark/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/motorola/quark/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
     vendor/motorola/quark/proprietary/etc/firmware/cy8c20247_24lkxi.hex:system/etc/firmware/cy8c20247_24lkxi.hex \
     vendor/motorola/quark/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/motorola/quark/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
@@ -135,6 +131,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
     vendor/motorola/quark/proprietary/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
     vendor/motorola/quark/proprietary/vendor/firmware/bcm20795_firmware.ncd:system/vendor/firmware/bcm20795_firmware.ncd \
+    vendor/motorola/quark/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/motorola/quark/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/motorola/quark/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/motorola/quark/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware/cpp_firmware_v1_6_0.fw \
     vendor/motorola/quark/proprietary/vendor/firmware/left.tfa9890.music.config:system/vendor/firmware/left.tfa9890.music.config \
     vendor/motorola/quark/proprietary/vendor/firmware/left.tfa9890.music.eq:system/vendor/firmware/left.tfa9890.music.eq \
     vendor/motorola/quark/proprietary/vendor/firmware/left.tfa9890.ringtone.config:system/vendor/firmware/left.tfa9890.ringtone.config \
