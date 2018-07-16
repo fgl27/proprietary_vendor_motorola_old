@@ -146,6 +146,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/lib/libsupermodel.so:system/lib/libsupermodel.so \
     vendor/motorola/quark/proprietary/lib/libtrainingcheck.so:system/lib/libtrainingcheck.so \
     vendor/motorola/quark/proprietary/vendor/etc/gnss/gnss-fsh.bin:system/vendor/etc/gnss/gnss-fsh.bin \
+    vendor/motorola/quark/proprietary/vendor/firmware/bcm20795_firmware.ncd:system/vendor/firmware/bcm20795_firmware.ncd \
     vendor/motorola/quark/proprietary/vendor/firmware/nvm_tlv.bin:system/vendor/firmware/nvm_tlv.bin \
     vendor/motorola/quark/proprietary/vendor/firmware/nvm_tlv_1.3.bin:system/vendor/firmware/nvm_tlv_1.3.bin \
     vendor/motorola/quark/proprietary/vendor/firmware/nvm_tlv_2.1.bin:system/vendor/firmware/nvm_tlv_2.1.bin \
