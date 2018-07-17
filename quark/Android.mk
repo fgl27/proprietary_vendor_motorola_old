@@ -54,120 +54,110 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilmsgtunnel
 LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/vendor/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PROPRIETARY_MODULE := true
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := AppDirectedSMSProxy
 LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/vendor/priv-app/AppDirectedSMSProxy/AppDirectedSMSProxy.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/AppDirectedSMSProxy/AppDirectedSMSProxy.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := BuaContactAdapter
 LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/vendor/priv-app/BuaContactAdapter/BuaContactAdapter.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/BuaContactAdapter/BuaContactAdapter.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := CNEService
 LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/vendor/priv-app/CNEService/CNEService.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/CNEService/CNEService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := LteBroadcastServices_vzw
 LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/vendor/priv-app/LteBroadcastServices_vzw/LteBroadcastServices_vzw.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/LteBroadcastServices_vzw/LteBroadcastServices_vzw.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := MotoSignatureApp
 LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/vendor/priv-app/MotoSignatureApp/MotoSignatureApp.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/MotoSignatureApp/MotoSignatureApp.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := TriggerEnroll
 LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/vendor/priv-app/TriggerEnroll/TriggerEnroll.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/TriggerEnroll/TriggerEnroll.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := TriggerTrainingService
 LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/vendor/priv-app/TriggerTrainingService/TriggerTrainingService.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/TriggerTrainingService/TriggerTrainingService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := VZWAPNService
 LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/vendor/priv-app/VZWAPNService/VZWAPNService.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/VZWAPNService/VZWAPNService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := atfwd
 LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/vendor/priv-app/atfwd/atfwd.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/atfwd/atfwd.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
@@ -282,12 +272,11 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := ImsConfigTest
 LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/vendor/priv-app/ImsConfigTest/ImsConfigTest.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/ImsConfigTest/ImsConfigTest.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
@@ -388,24 +377,22 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := CarrierServices
 LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/vendor/priv-app/CarrierServices/CarrierServices.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/CarrierServices/CarrierServices.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := vzw_msdc_api
 LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/vendor/priv-app/vzw_msdc_api/vzw_msdc_api.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/vzw_msdc_api/vzw_msdc_api.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
