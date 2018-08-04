@@ -50,11 +50,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:system/vendor/etc/acdbdata/Hdmi_cal.acdb \
     vendor/motorola/quark/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:system/vendor/etc/acdbdata/Headset_cal.acdb \
     vendor/motorola/quark/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:system/vendor/etc/acdbdata/Speaker_cal.acdb \
+    vendor/motorola/quark/proprietary/etc/flp.conf:system/etc/flp.conf \
+    vendor/motorola/quark/proprietary/etc/gps.conf:system/etc/gps.conf \
+    vendor/motorola/quark/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/motorola/quark/proprietary/vendor/etc/permissions/cneapiclient.xml:system/vendor/etc/permissions/cneapiclient.xml \
     vendor/motorola/quark/proprietary/vendor/etc/permissions/com.quicinc.cne.xml:system/vendor/etc/permissions/com.quicinc.cne.xml \
     vendor/motorola/quark/proprietary/vendor/etc/permissions/org.simalliance.openmobileapi.xml:system/vendor/etc/permissions/org.simalliance.openmobileapi.xml \
     vendor/motorola/quark/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
     vendor/motorola/quark/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
+    vendor/motorola/quark/proprietary/etc/quipc.conf:system/etc/quipc.conf \
+    vendor/motorola/quark/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/motorola/quark/proprietary/vendor/lib/hw/audio.motvr.default.so:system/vendor/lib/hw/audio.motvr.default.so \
     vendor/motorola/quark/proprietary/vendor/lib/hw/camera.vendor.apq8084.so:system/vendor/lib/hw/camera.vendor.apq8084.so \
     vendor/motorola/quark/proprietary/vendor/lib/hw/gps.default.so:system/vendor/lib/hw/gps.default.so \
