@@ -60,41 +60,41 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
     vendor/motorola/quark/proprietary/etc/quipc.conf:system/etc/quipc.conf \
     vendor/motorola/quark/proprietary/etc/sap.conf:system/etc/sap.conf \
-    vendor/motorola/quark/proprietary/vendor/lib/hw/audio.motvr.default.so:system/vendor/lib/hw/audio.motvr.default.so \
-    vendor/motorola/quark/proprietary/vendor/lib/hw/camera.vendor.apq8084.so:system/vendor/lib/hw/camera.vendor.apq8084.so \
-    vendor/motorola/quark/proprietary/vendor/lib/hw/gps.default.so:system/vendor/lib/hw/gps.default.so \
-    vendor/motorola/quark/proprietary/vendor/lib/hw/sensorhub.apq8084.so:system/vendor/lib/hw/sensorhub.apq8084.so \
-    vendor/motorola/quark/proprietary/vendor/lib/hw/sensors.apq8084.so:system/vendor/lib/hw/sensors.apq8084.so \
-    vendor/motorola/quark/proprietary/vendor/lib/hw/sound_trigger.primary.apq8084.so:system/vendor/lib/hw/sound_trigger.primary.apq8084.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libAisAdapter.so:system/vendor/lib/libAisAdapter.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libAlAisLib.so:system/vendor/lib/libAlAisLib.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libAlAisTune.so:system/vendor/lib/libAlAisTune.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libAlAisWrap.so:system/vendor/lib/libAlAisWrap.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libadropbox.so:system/vendor/lib/libadropbox.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libadsp2.so:system/vendor/lib/libadsp2.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libadspd-jni-c55.so:system/vendor/lib/libadspd-jni-c55.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libadspd.so:system/vendor/lib/libadspd.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libcamerabgproc-jni.so:system/vendor/lib/libcamerabgproc-jni.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libcamerabgprocservice.so:system/vendor/lib/libcamerabgprocservice.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libdetectmodem.so:system/vendor/lib/libdetectmodem.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libgps.utils.so:system/vendor/lib/libgps.utils.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libloc_core.so:system/vendor/lib/libloc_core.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libloc_eng.so:system/vendor/lib/libloc_eng.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libmdmcutback.so:system/vendor/lib/libmdmcutback.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libmmcamera_interface.so:system/vendor/lib/libmmcamera_interface.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libmmjpeg_interface.so:system/vendor/lib/libmmjpeg_interface.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libmot_sensorlistener.so:system/vendor/lib/libmot_sensorlistener.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libmotaudioutils.so:system/vendor/lib/libmotaudioutils.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libmotext_inf.so:system/vendor/lib/libmotext_inf.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libqmimotext.so:system/vendor/lib/libqmimotext.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libqomx_core.so:system/vendor/lib/libqomx_core.so \
-    vendor/motorola/quark/proprietary/vendor/lib/librecoglib.so:system/vendor/lib/librecoglib.so \
+    vendor/motorola/quark/proprietary/lib/hw/audio.motvr.default.so:system/lib/hw/audio.motvr.default.so \
+    vendor/motorola/quark/proprietary/lib/hw/camera.vendor.apq8084.so:system/lib/hw/camera.vendor.apq8084.so \
+    vendor/motorola/quark/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    vendor/motorola/quark/proprietary/lib/hw/sensorhub.apq8084.so:system/lib/hw/sensorhub.apq8084.so \
+    vendor/motorola/quark/proprietary/lib/hw/sensors.apq8084.so:system/lib/hw/sensors.apq8084.so \
+    vendor/motorola/quark/proprietary/lib/hw/sound_trigger.primary.apq8084.so:system/lib/hw/sound_trigger.primary.apq8084.so \
+    vendor/motorola/quark/proprietary/lib/libAisAdapter.so:system/lib/libAisAdapter.so \
+    vendor/motorola/quark/proprietary/lib/libAlAisLib.so:system/lib/libAlAisLib.so \
+    vendor/motorola/quark/proprietary/lib/libAlAisTune.so:system/lib/libAlAisTune.so \
+    vendor/motorola/quark/proprietary/lib/libAlAisWrap.so:system/lib/libAlAisWrap.so \
+    vendor/motorola/quark/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
+    vendor/motorola/quark/proprietary/lib/libadsp2.so:system/lib/libadsp2.so \
+    vendor/motorola/quark/proprietary/lib/libadspd-jni-c55.so:system/lib/libadspd-jni-c55.so \
+    vendor/motorola/quark/proprietary/lib/libadspd.so:system/lib/libadspd.so \
+    vendor/motorola/quark/proprietary/lib/libcamerabgproc-jni.so:system/lib/libcamerabgproc-jni.so \
+    vendor/motorola/quark/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
+    vendor/motorola/quark/proprietary/lib/libdetectmodem.so:system/lib/libdetectmodem.so \
+    vendor/motorola/quark/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    vendor/motorola/quark/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/motorola/quark/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    vendor/motorola/quark/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/motorola/quark/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
+    vendor/motorola/quark/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
+    vendor/motorola/quark/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/motorola/quark/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/motorola/quark/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/motorola/quark/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so \
+    vendor/motorola/quark/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
+    vendor/motorola/quark/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
+    vendor/motorola/quark/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
+    vendor/motorola/quark/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/motorola/quark/proprietary/lib/librecoglib.so:system/lib/librecoglib.so \
     vendor/motorola/quark/proprietary/vendor/lib/soundfx/libspeakerbundle.so:system/vendor/lib/soundfx/libspeakerbundle.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libsupermodel.so:system/vendor/lib/libsupermodel.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libtrainingcheck.so:system/vendor/lib/libtrainingcheck.so \
+    vendor/motorola/quark/proprietary/lib/libsupermodel.so:system/lib/libsupermodel.so \
+    vendor/motorola/quark/proprietary/lib/libtrainingcheck.so:system/lib/libtrainingcheck.so \
     vendor/motorola/quark/proprietary/vendor/etc/firmware/aonvr1.bin:system/vendor/etc/firmware/aonvr1.bin \
     vendor/motorola/quark/proprietary/vendor/etc/firmware/aonvr2.bin:system/vendor/etc/firmware/aonvr2.bin \
     vendor/motorola/quark/proprietary/vendor/etc/firmware/sensorhubfw.bin:system/vendor/etc/firmware/sensorhubfw.bin \
@@ -336,12 +336,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/motorola/quark/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/motorola/quark/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/motorola/quark/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/motorola/quark/proprietary/vendor/lib/rfsa/adsp/libapps_mem_heap.so:system/vendor/lib/rfsa/adsp/libapps_mem_heap.so \
-    vendor/motorola/quark/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
-    vendor/motorola/quark/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:system/vendor/lib/rfsa/adsp/libfastcvadsp.so \
-    vendor/motorola/quark/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
-    vendor/motorola/quark/proprietary/vendor/lib/rfsa/adsp/libscveT2T_skel.so:system/vendor/lib/rfsa/adsp/libscveT2T_skel.so
+    vendor/motorola/quark/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff \
@@ -373,12 +368,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/etc/permissions/com.motorola.DirectedSMSProxy.xml:system/vendor/etc/permissions/com.motorola.DirectedSMSProxy.xml \
     vendor/motorola/quark/proprietary/vendor/etc/permissions/com.vzw.vzwapnlib.xml:system/vendor/etc/permissions/com.vzw.vzwapnlib.xml \
-    vendor/motorola/quark/proprietary/vendor/lib/libjni_keyboarddecoder.so:system/vendor/lib/libjni_keyboarddecoder.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libjni_latinimegoogle.so:system/vendor/lib/libjni_latinimegoogle.so \
+    vendor/motorola/quark/proprietary/lib/libjni_keyboarddecoder.so:system/lib/libjni_keyboarddecoder.so \
+    vendor/motorola/quark/proprietary/lib/libjni_latinimegoogle.so:system/lib/libjni_latinimegoogle.so \
     vendor/motorola/quark/proprietary/vendor/etc/permissions/com.google.android.maps.xml:system/vendor/etc/permissions/com.google.android.maps.xml \
     vendor/motorola/quark/proprietary/vendor/app/Adaway/lib/arm/libblank_webserver_exec.so:system/vendor/app/Adaway/lib/arm/libblank_webserver_exec.so \
     vendor/motorola/quark/proprietary/vendor/app/Adaway/lib/arm/libtcpdump_exec.so:system/vendor/app/Adaway/lib/arm/libtcpdump_exec.so \
-    vendor/motorola/quark/proprietary/vendor/lib/libmm-qcamera.so:system/vendor/lib/libmm-qcamera.so \
+    vendor/motorola/quark/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/motorola/quark/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/motorola/quark/proprietary/vendor/lib/libmotocalibration.so:system/vendor/lib/libmotocalibration.so \
     vendor/motorola/quark/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
