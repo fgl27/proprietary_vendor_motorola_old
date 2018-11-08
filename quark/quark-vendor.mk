@@ -70,7 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/lib/libAlAisLib.so:system/lib/libAlAisLib.so \
     vendor/motorola/quark/proprietary/lib/libAlAisTune.so:system/lib/libAlAisTune.so \
     vendor/motorola/quark/proprietary/lib/libAlAisWrap.so:system/lib/libAlAisWrap.so \
-    vendor/motorola/quark/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/quark/proprietary/lib/libadsp2.so:system/lib/libadsp2.so \
     vendor/motorola/quark/proprietary/lib/libadspd-jni-c55.so:system/lib/libadspd-jni-c55.so \
     vendor/motorola/quark/proprietary/lib/libadspd.so:system/lib/libadspd.so \
@@ -82,17 +81,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/motorola/quark/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/motorola/quark/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-    vendor/motorola/quark/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
-    vendor/motorola/quark/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
     vendor/motorola/quark/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/motorola/quark/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/motorola/quark/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so \
     vendor/motorola/quark/proprietary/lib/libmotaudioutils.so:system/lib/libmotaudioutils.so \
-    vendor/motorola/quark/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
-    vendor/motorola/quark/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/quark/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/motorola/quark/proprietary/lib/librecoglib.so:system/lib/librecoglib.so \
-    vendor/motorola/quark/proprietary/vendor/lib/soundfx/libspeakerbundle.so:system/vendor/lib/soundfx/libspeakerbundle.so \
     vendor/motorola/quark/proprietary/lib/libsupermodel.so:system/lib/libsupermodel.so \
     vendor/motorola/quark/proprietary/lib/libtrainingcheck.so:system/lib/libtrainingcheck.so \
     vendor/motorola/quark/proprietary/vendor/etc/firmware/aonvr1.bin:system/vendor/etc/firmware/aonvr1.bin \
@@ -168,6 +162,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/motorola/quark/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
     vendor/motorola/quark/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/motorola/quark/proprietary/vendor/lib/soundfx/libspeakerbundle.so:system/vendor/lib/soundfx/libspeakerbundle.so \
+    vendor/motorola/quark/proprietary/vendor/lib/libadropbox.so:system/vendor/lib/libadropbox.so \
     vendor/motorola/quark/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/motorola/quark/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/motorola/quark/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
@@ -242,6 +238,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/motorola/quark/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     vendor/motorola/quark/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/motorola/quark/proprietary/vendor/lib/libmdmcutback.so:system/vendor/lib/libmdmcutback.so \
+    vendor/motorola/quark/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
+    vendor/motorola/quark/proprietary/vendor/lib/libmotext_inf.so:system/vendor/lib/libmotext_inf.so \
+    vendor/motorola/quark/proprietary/vendor/lib/libqmimotext.so:system/vendor/lib/libqmimotext.so \
     vendor/motorola/quark/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/motorola/quark/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/motorola/quark/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
