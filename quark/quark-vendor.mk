@@ -363,7 +363,8 @@ PRODUCT_PACKAGES += \
     com.verizon.hardware.telephony.srlte \
     KernelAdiutor \
     TurboToast \
-    Adaway
+    Adaway \
+    mcamera
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/quark/proprietary/vendor/etc/permissions/com.motorola.DirectedSMSProxy.xml:system/vendor/etc/permissions/com.motorola.DirectedSMSProxy.xml \
