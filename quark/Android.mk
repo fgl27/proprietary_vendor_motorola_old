@@ -432,12 +432,11 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := mcamera
 LOCAL_MODULE_OWNER := motorola
-LOCAL_SRC_FILES := proprietary/vendor/app/mcamera/mcamera.apk
+LOCAL_SRC_FILES := proprietary/app/mcamera/mcamera.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 endif
